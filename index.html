@@ -1,42 +1,88 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Portfolio | Sharon Choi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   </head>
+
   <body>
-    <header>
+
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Sharon Choi</h1>
-      <p class = "UX/UI and Visual Designer based in the Bay Area"></p>
+      <p class="slogan">UX/UI & Visual Designer based in San Francisco Bay Area</p>
     </header>
-    <main>
-      <div class = "project feature-project">
-        <img src = "http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-        <h2>Featured Project Name</h2>
-        <p>Project description text</p>
+
+    <main class="mdl-layout__content mdl-grid">
+      <div class="project feature-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src = "https://picsum.photos/350/260/" alt="project screenshot"/>
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card__title-text">Featured Project Name</h2>
+          <p class="project-description mdl-card__supporting-text">Project description text</p>
+        </div>
       </div>
-      <div class = "project">
-        <img src = "http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="https://picsum.photos/350/260/" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Project description text</div>
       </div>
-      <div class = "project">
-        <img src = "http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="https://picsum.photos/350/260/" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Project description text</div>
       </div>
-      <div class = "project">
-        <img src = "http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-        <h2>Project Name</h2>
-        <p>Project description text</p>
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="https://picsum.photos/350/260/" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name</h2>
+        </div>
+        <div class="mdl-card__supporting-text">Project description text</div>
       </div>
     </main>
-    <footer>
-      <ul>
-        <li> <a href = "https://www.linkedin.com/in/sharon-choi-a962094b/">LinkedIn</a></li>
-        <li> <a href = "https://github.com/sharonchoi62">GitHub</a></li>
-        <li> <a href = "https://www.facebook.com/sharon8662">Facebook</a></li>
-        <li> <a href = "https://www.instagram.com/sharonchoi62/">Instagram</a></li>
-        <li> <a href = "mailto:sharonchoi62@gmail.com">Email</a></li>
+
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list">
+        <li>
+          <a href = "https://www.linkedin.com/in/sharon-choi-a962094b/">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href = "https://github.com/sharonchoi62">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href = "https://www.facebook.com/sharon8662">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a href = "https://www.instagram.com/sharonchoi62/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href = "mailto:sharonchoi62@gmail.com">
+            <i class="fas fa-envelope-square"></i>
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
